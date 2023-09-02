@@ -1,5 +1,6 @@
 package Lesson3;
 
+<<<<<<< HEAD
 import java.util.Arrays;
 
 public class Lesson3 {
@@ -40,3 +41,13 @@ int f = 10;
 }
 
 
+=======
+public class Lesson3 {
+    public static void main(String[] args) {
+
+
+
+
+    }
+}
+>>>>>>> origin/lesson
