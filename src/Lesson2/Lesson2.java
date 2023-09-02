@@ -4,10 +4,19 @@ public class Lesson2 {
 
     public static void main(String[] args) {
 
-        System.out.println("Тут был Ден");
-        System.out.println("Тут был Ден");
-        System.out.println("Тут был Ден");
-        System.out.println("Тут был Ден");
+        int a = 5;
+        int b = 4;
+        int c = a + b;
+
+        System.out.println("""
+                ===========================
+                         Тут Тестит 
+                            Денис
+                ===========================""");
+
+
+        System.out.println("Сумма чисел :" + c);
+
     }
 
 }
