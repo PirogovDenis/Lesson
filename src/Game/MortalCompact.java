@@ -5,7 +5,7 @@ package Game;
 public class MortalCompact {
     public static void main(String[] args) {
 
-        String name = "hero";
+        String name = "Den";
         System.out.println();
         Hero Warrior = new Hero(name);
         Hero Mage = new Hero(name);
