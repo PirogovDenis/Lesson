@@ -1,4 +1,4 @@
-package Lesson4;
+package lesson4;
 
 public class Elevator {
     private int currentFloor;
