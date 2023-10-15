@@ -1,4 +1,4 @@
-package Lesson1;
+package lesson1;
 
 public class CastingValues {
     public static void main(String[] args) {
@@ -10,14 +10,14 @@ public class CastingValues {
         int hair = (short) 2; // принудительно из int делаем short
         String type = (String) "Bird"; //выводим строку Bird
         short tail = (short) (4 + 10); // тут так и так short можно int
-        long feathers = 10 ( long); //тут я непонял зачем long приводить в long еще и без литерала по идее надо так long feathers = 10L; а вообще это int
+        int feathers = 10; //тут я непонял зачем long приводить в long еще и без литерала по идее надо так long feathers = 10L; а вообще это int
 
         /*
          * В комментариях к каждой строке опишите в чем проблема для каждого случая.
          */
-       int fish = 1.0; // int идет без точки, если убрать скомпилится
+       int fish = 1; // int идет без точки, если убрать скомпилится
         int bird = 1921222; // short до 32767, тут должно быть int
-       int mammal = 9f; // литерал F используется в Float,
-        long reptile = 192_301_398_193_810_323; // Для Long надо использовать литерал L
+       float mammal = 9F; // литерал F используется в Float,
+        long reptile = 192_301_398_193_810_323L; // Для Long надо использовать литерал L
     }
 }

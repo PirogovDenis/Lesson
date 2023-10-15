@@ -1,6 +1,4 @@
-package Free;
-
-import java.util.Scanner;
+package free;
 
 public class xz {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Game;
+package game;
 
 public class Enemy {
     public int health;

@@ -1,7 +1,5 @@
-package Lesson3;
+package lesson3;
 
-
-import java.util.Arrays;
 
 public class Lesson3 {
     public static void main(String[] args) {
